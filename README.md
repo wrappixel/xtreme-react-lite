@@ -5,3 +5,7 @@
 <br/>
 
 <h3>React Version of Xtreme admin, you can use it for your personal project, Footer backlink required, it must be redirect to our wrappixel.com</h3>
+
+Check the live preview : 
+
+<a href="https://wrappixel.com/demos/free-admin-templates/xtreme-reactadmin-lite/#/dashboard">DEmo </a>
