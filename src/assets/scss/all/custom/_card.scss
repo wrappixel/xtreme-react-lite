@@ -1,0 +1,77 @@
+.card {
+  margin-bottom: $card-bottom-margin;
+  @extend %card-shadow;
+  .card-subtitle {
+    font-weight: $font-weight-light;
+    margin-bottom: 10px;
+    color: $text-muted;
+  }
+  .card-title {
+    position: relative;
+    font-weight: $font-weight-medium;
+  }
+  .card-actions {
+    float: $rgt;
+    a {
+      padding: 0 5px;
+      cursor: pointer;
+    }
+  }
+  .card-header .card-title {
+    margin-bottom: 0px;
+  }
+}
+
+.card-alt {
+  margin: 0 -20px;
+  background: $card-alt;
+}
+
+.card-group {
+  margin-bottom: $card-bottom-margin;
+  .card {
+    border-right: 1px solid $border-color;
+  }
+}
+
+.card-fullscreen {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  overflow: auto;
+}
+
+.card-hover {
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  &:hover {
+    -webkit-transform: translateY(-4px) scale(1.01);
+    -moz-transform: translateY(-4px) scale(1.01);
+    -ms-transform: translateY(-4px) scale(1.01);
+    -o-transform: translateY(-4px) scale(1.01);
+    transform: translateY(-4px) scale(1.01);
+    -webkit-box-shadow: 0 14px 24px rgba(62, 57, 107, 0.1);
+    box-shadow: 0 14px 24px rgba(62, 57, 107, 0.1);
+  }
+}
+.draggable-cards .card-header {
+  cursor: move;
+}
+.card-moved .card {
+  background: $info;
+  color: $white;
+}
+
+.accordion {
+  .card,
+  .btn,
+  .btn:hover {
+    box-shadow: none;
+    margin-bottom: 1px;
+  }
+}

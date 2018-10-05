@@ -1,0 +1,59 @@
+.badge-circle {
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.875rem;
+}
+.badge-rounded {
+  border-radius: 40px;
+}
+
+/*******************
+Rounds
+*******************/
+
+.round {
+  line-height: 48px;
+  color: $white;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 100%;
+  background: $blue;
+  line-height: 52px;
+  img {
+    border-radius: 100%;
+  }
+  &.round-info {
+    background: $blue;
+  }
+
+  &.round-warning {
+    background: $warning;
+  }
+
+  &.round-danger {
+    background: $danger;
+  }
+
+  &.round-success {
+    background: $success;
+  }
+
+  &.round-primary {
+    background: $primary;
+  }
+}
+
+.round-lg {
+  line-height: 65px;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+}

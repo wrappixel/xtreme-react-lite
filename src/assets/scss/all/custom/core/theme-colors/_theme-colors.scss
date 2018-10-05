@@ -1,0 +1,133 @@
+// Theme colors
+#main-wrapper {
+  &[data-layout='vertical'],
+  &[data-layout='horizontal'] {
+    /*This is for the logo bg*/
+    .topbar .top-navbar .navbar-header {
+      &[data-logobg='skin1'] {
+        background: $skin1;
+      }
+      &[data-logobg='skin2'] {
+        background: $skin2;
+      }
+      &[data-logobg='skin3'] {
+        background: $skin3;
+      }
+      &[data-logobg='skin4'] {
+        background: $skin4;
+      }
+      &[data-logobg='skin5'] {
+        background: $skin5;
+      }
+      &[data-logobg='skin6'] {
+        background: $skin6;
+        .navbar-brand {
+          .dark-logo {
+            display: inline;
+          }
+          .light-logo {
+            display: none;
+          }
+        }
+        .nav-toggler,
+        .topbartoggler {
+          color: $body-color;
+        }
+      }
+    }
+    .topbar .navbar-collapse,
+    .topbar {
+      &[data-navbarbg='skin1'] {
+        background: $skin1;
+      }
+      &[data-navbarbg='skin2'] {
+        background: $skin2;
+      }
+      &[data-navbarbg='skin3'] {
+        background: $skin3;
+      }
+      &[data-navbarbg='skin4'] {
+        background: $skin4;
+      }
+      &[data-navbarbg='skin5'] {
+        background: $skin5;
+      }
+      &[data-navbarbg='skin6'] {
+        background: $skin6;
+      }
+    }
+    /*This is for the sidebar bg*/
+    .left-sidebar {
+      &[data-sidebarbg='skin1'],
+      &[data-sidebarbg='skin1'] ul {
+        background: $skin1;
+        .create-btn {
+          background: $cyan;
+        }
+      }
+      &[data-sidebarbg='skin2'],
+      &[data-sidebarbg='skin2'] ul {
+        background: $skin2;
+        &::after {
+          background: url(../../assets/images/background/sidebarbg.png)
+            no-repeat;
+          position: absolute;
+          top: 0px;
+          content: '';
+          width: 100%;
+          height: 100%;
+          opacity: 0.1;
+          z-index: -1;
+        }
+      }
+      &[data-sidebarbg='skin3'],
+      &[data-sidebarbg='skin3'] ul {
+        background: $skin3;
+      }
+      &[data-sidebarbg='skin4'],
+      &[data-sidebarbg='skin4'] ul {
+        background: $skin4;
+      }
+      &[data-sidebarbg='skin5'],
+      &[data-sidebarbg='skin5'] ul {
+        background: $skin5;
+        .create-btn {
+          background: $cyan;
+        }
+      }
+      &[data-sidebarbg='skin6'] {
+        background: $skin6;
+        .sidebar-nav {
+          ul {
+            background: $skin6;
+            .sidebar-item {
+              .sidebar-link {
+                color: $sidebar-text-dark;
+                i {
+                  color: $sidebar-icons-dark;
+                }
+              }
+            }
+            .nav-small-cap {
+              color: $sidebar-text-dark;
+              opacity: 0.7;
+            }
+          }
+          .has-arrow {
+            &::after {
+              border-color: $sidebar-text-dark;
+            }
+          }
+          .user-content,
+          .user-name,
+          .user-email {
+            color: $theme-dark;
+          }
+        }
+        .create-btn {
+          background: $cyan;
+        }
+      }
+    }
+  }
+}

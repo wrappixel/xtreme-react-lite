@@ -1,0 +1,289 @@
+// Custom layout variables
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800');
+
+/*Theme Colors*/
+
+$themecolor: #2962ff;
+$themecolor-dark: #028ee1;
+$themecolor-alt: #26c6da;
+$theme-light: #fff;
+$theme-dark: #212529;
+
+$skin1: #2962ff;
+$skin2: #fe5419;
+$skin3: #00b0ff;
+$skin4: #6659f7;
+$skin5: #414755;
+$skin6: #fff;
+
+/*Topbar Colors*/
+
+$topbar: $theme-light;
+$topbar-height: 64px;
+$topbar-navlink-padding: 0px 15px;
+$topbar-navlink-font-size: 0.875rem;
+$topbar-navlink-height: 64px;
+$topbar-navbrand-padding: 0 10px 0 10px;
+$topbar-shadow: 1px 0px 7px rgba(0, 0, 0, 0.05);
+%topbar-shadow {
+  box-shadow: $topbar-shadow;
+  -webkit-box-shadow: $topbar-shadow;
+  -o-box-shadow: $topbar-shadow;
+  -moz-box-shadow: $topbar-shadow;
+}
+$topbar-mailbox-width: 300px;
+$topbar-mailbox-height: 317px;
+$topbar-droptitle-bg: url(../../assets/images/background/img5.png) no-repeat;
+
+/*Sidebar Colors*/
+$left-part-width: 260px;
+$sidebar: $theme-light;
+$sidebar-alt: #e8eff0;
+$sidebar-text: #fff;
+$sidebar-icons: #fff;
+$sidebar-text-dark: #212529;
+$sidebar-icons-dark: #4f5467;
+
+$sidebar-width-full: 250px;
+$sidebar-width-iconbar: 180px;
+$sidebar-width-mini: 65px;
+
+/*Boxed layout width*/
+
+$boxed-width: 1200px;
+
+/*Shadow*/
+
+$shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+
+/* transitions */
+$transitions: 0.2s ease-in;
+/* Dark transparent bg */
+$transparent-dark-bg: rgba(0, 0, 0, 0.03);
+$lft: left;
+$rgt: right;
+$card-alt: #e4e9ef;
+%square {
+  border-radius: 0px;
+}
+%rotate45 {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+/* ***************************** */
+// Bootstrap overrides
+
+/******************************
+/* Color system*/
+
+$white: #fff !default;
+$gray-100: #f6f9fc !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #8898aa !default;
+$gray-700: #525f7f !default;
+$gray-800: #32325d !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+$cyan: #4fc3f7 !default;
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    'primary': #5e72e4,
+    'secondary': $gray-600,
+    'success': #2dce89,
+    'info': #2962ff,
+    'warning': #fb6340,
+    'danger': #f62d51,
+    'light': $gray-100,
+    'dark': $gray-800,
+    'cyan': #4fc3f7,
+    'orange': #fb6340,
+    'purple': #5e72e4,
+    'inverse': #32325d
+  ),
+  $theme-colors
+);
+
+$brand-colors: () !default;
+$brand-colors: map-merge(
+  (
+    'facebook': #3b5999,
+    'twitter': #1da1f2,
+    'googleplus': #dd4b39,
+    'instagram': #e4405f,
+    'pinterest': #bd081c,
+    'youtube': #cd201f,
+    'linkedin': #007bb6,
+    'slack': #3aaf85,
+    'dribbble': #ea4c89,
+    'github': #222222
+  ),
+  $brand-colors
+);
+
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-rounded: true !default;
+$enable-shadows: true !default;
+$enable-gradients: false !default;
+
+// Body
+$main-body-bg: #fff !default;
+$body-bg: #eef5f9;
+$body-color: #3e5569 !default;
+
+$box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.075) !default;
+$box-shadow: 0 0.5rem 1rem rgba($black, 0.08) !default;
+$box-shadow-lg: 0 1rem 3rem rgba($black, 0.175) !default;
+// Style anchor elements.
+
+$link-hover-decoration: none !default;
+
+// Typography
+
+// Font, line-height, and color for body text, headings, and more.
+$font-size-base: 0.875rem;
+$font-family-sans-serif: 'Nunito Sans', sans-serif !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 600 !default;
+$font-weight-bold: 800 !default;
+
+$display5-size: 3rem !default;
+$display6-size: 2.5rem !default;
+$display7-size: 2rem !default;
+$display5-weight: 300 !default;
+$display6-weight: 300 !default;
+$display7-weight: 300 !default;
+
+$h1-font-size: 36px !default;
+$h2-font-size: 30px !default;
+$h3-font-size: 24px !default;
+$h4-font-size: 18px !default;
+$h5-font-size: 16px !default;
+$h6-font-size: 14px !default;
+$headings-margin-bottom: (1rem / 2) !default;
+$headings-font-weight: 700 !default;
+$headings-color: inherit !default;
+
+// Breadcrumbs
+$breadcrumb-bg: $body-bg;
+$breadcrumb-margin-bottom: 1.5rem;
+
+// Cards
+$card-border-width: 0px !default;
+$card-border-color: transparent !default;
+$card-border-radius: 4px !default;
+$card-bottom-margin: 30px !default;
+%card-shadow {
+  box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  -o-box-shadow: $shadow;
+}
+// Dropdowns
+$dropdown-item-padding-x: 1rem !default;
+$dropdown-item-padding-y: 0.65rem !default;
+$dropdown-border-color: $gray-200;
+$dropdown-divider-bg: $gray-100;
+$dropdown-box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1),
+  0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+// Buttons
+$btn-secondary-border: $gray-300;
+$btn-hover-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1),
+  0 3px 6px rgba(0, 0, 0, 0.08);
+$btn-focus-box-shadow: $btn-hover-box-shadow !default;
+$btn-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+// Tables
+$table-bg-accent: $gray-100;
+$table-bg-hover: $gray-100;
+$table-hover-bg: $gray-100 !default;
+$table-cell-padding: 1rem !default;
+$table-bg-level: -10 !default;
+$table-bg-level2: 1 !default;
+$table-bg-level3: -5 !default;
+// Components
+$component-active-color: $white !default;
+$component-active-bg: $themecolor !default;
+
+// Badges
+
+$badge-font-size: 73% !default;
+$badge-font-weight: $font-weight-light !default;
+$badge-padding-y: 0.35em !default;
+$badge-padding-x: 0.7em !default;
+$badge-pill-padding-x: 0.7em !default;
+$badge-pill-padding-y: 1em !default;
+// Forms
+$input-group-addon-bg: $gray-100;
+$input-border-color: $gray-200;
+$input-group-addon-border-color: $gray-200;
+$input-btn-focus-color: rgba(0, 0, 0, 0.25) !default;
+$input-focus-border-color: rgba(0, 0, 0, 0.25) !default;
+$input-btn-focus-box-shadow: none !default;
+
+$input-alternative-box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15),
+  0 1px 0 rgba(0, 0, 0, 0.02);
+$input-focus-alternative-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11),
+  0 1px 3px rgba(0, 0, 0, 0.08);
+
+$input-box-shadow: none !default; // 0 1px 3px 0 $gray-400 !default;
+$input-focus-box-shadow: none !default; //0 1px 3px 0 $gray-500 !default;
+
+$custom-control-indicator-active-bg: rgba(0, 0, 0, 35%) !default;
+$custom-select-indicator: url(../../assets/images/custom-select.png) !default;
+$custom-select-bg-size: 0px -1px;
+$input-btn-focus-box-shadow: transparent !default;
+$custom-select-focus-box-shadow: transparent !default;
+$custom-select-indicator: str-replace(
+  url('../../assets/images/custom-select.png'),
+  '%23'
+) !default;
+$custom-control-indicator-box-shadow: none !default;
+$custom-select-box-shadow: none !default;
+$custom-control-indicator-focus-box-shadow: $custom-control-indicator-box-shadow !default;
+$custom-control-indicator-active-box-shadow: $custom-control-indicator-box-shadow !default;
+$custom-control-indicator-checked-box-shadow: $custom-control-indicator-box-shadow !default;
+// Define common padding and border radius sizes and more.
+$border-width: 1px !default;
+$border-color: $gray-200 !default;
+$border-radius: 2px !default;
+$border-radius-lg: 4px !default;
+$border-radius-sm: 1px !default;
+// Progress bars
+$progress-height: 6px !default;
+$progress-bg: $gray-100;
+// Tabs
+$nav-tabs-link-active-bg: $white !default;
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xlg: 1600px
+) !default;
+// Navbar
+$navbar-dark-color: rgba($white, 0.8) !default;
+$navbar-dark-hover-color: rgba($white, 1) !default;
+// Modal
+$modal-content-box-shadow-xs: 0 0.25rem 0.5rem rgba($black, 0.2) !default;
+$modal-content-box-shadow-sm-up: 0 0.5rem 1rem rgba($black, 0.2) !default;
+// Tabs
+$nav-tabs-border-color: $gray-300 !default;
+$nav-tabs-border-width: $border-width !default;
+$nav-tabs-border-radius: $border-radius !default;
+$nav-tabs-link-hover-border-color: $gray-200 $gray-200 $nav-tabs-border-color !default;
+$nav-tabs-link-active-color: $gray-700 !default;
+$nav-tabs-link-active-bg: $body-bg !default;
+$nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg !default;

@@ -1,0 +1,24 @@
+/*******************************/
+// Bootstrap overrides
+/*******************************/
+@import 'variables.scss';
+@import 'mixins/background-variant';
+@import 'utilities/backgrounds';
+@import 'utilities/floating';
+@import 'text.scss';
+@import 'card.scss';
+@import 'type.scss';
+@import 'badge.scss';
+@import 'reboot.scss';
+@import 'perfect-scrollbar.scss';
+@import 'spinner.scss';
+@import 'buttons.scss';
+@import 'comments.scss';
+@import 'feeds.scss';
+
+
+//Theme core files
+@import 'core/theme-colors/theme-colors';
+@import 'core/layout/layout';
+@import 'core/topbar/topbar';
+@import 'core/sidebar/sidebar';

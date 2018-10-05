@@ -1,0 +1,114 @@
+* {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: $body-color;
+  background: $main-body-bg;
+}
+
+html {
+  position: relative;
+}
+
+a.link {
+  color: $body-color;
+  &:hover,
+  &:focus {
+    color: $primary;
+  }
+}
+
+.no-wrap {
+  td,
+  th {
+    white-space: nowrap;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
+
+/*******************
+  Opacity
+  *******************/
+
+.op-5 {
+  opacity: 0.5;
+}
+
+.op-3 {
+  opacity: 0.3;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+/*******************
+  List-style-none
+  ******************/
+
+ul.list-style-none {
+  margin: 0px;
+  padding: 0px;
+  li {
+    list-style: none;
+    a {
+      color: $body-color;
+      padding: 8px 0px;
+      display: block;
+      text-decoration: none;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.pull-right {
+  float: $rgt;
+}
+.pull-left {
+  float: $lft;
+}
+
+.error-box {
+  height: 100%;
+  position: fixed;
+  background: url(../../assets/images/background/error-bg.jpg) no-repeat center
+    center #fff;
+  width: 100%;
+  .error-body {
+    padding-top: 5%;
+  }
+  .error-title {
+    font-size: 210px;
+    font-weight: 900;
+    text-shadow: 4px 4px 0 #fff, 6px 6px 0 $dark;
+    line-height: 210px;
+  }
+}
+
+.f-icon,
+.t-icon,
+.w-icon,
+.sl-icon,
+.if-icon,
+.m-icon {
+  cursor: pointer;
+  padding: 13px 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  &:hover {
+    background-color: $gray-100;
+  }
+}

@@ -1,0 +1,113 @@
+//Buttons
+.btn {
+  position: relative;
+  transition: $transition-base;
+
+  &:hover {
+    @include box-shadow($btn-hover-box-shadow);
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -o-transform: translateY(-1px);
+  }
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+.btn-circle {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    @include box-shadow($btn-active-box-shadow);
+
+    &:focus {
+      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+    }
+  }
+  &.btn-sm {
+    width: 35px;
+    height: 35px;
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  &.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 14px 15px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  &.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 14px 15px;
+    font-size: 24px;
+  }
+}
+
+.btn-rounded {
+  border-radius: 60px;
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    @include box-shadow($btn-active-box-shadow);
+
+    &:focus {
+      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+    }
+  }
+  &.btn-lg {
+    padding: 0.75rem 1.5rem;
+  }
+  &.btn-sm {
+    padding: 0.25rem 0.75rem;
+    font-size: 12px;
+  }
+  &.btn-md {
+    padding: 12px 35px;
+    font-size: 16px;
+  }
+}
+// Brand buttons
+
+@each $color, $value in $brand-colors {
+  .btn-#{$color} {
+    @include button-variant($value, $value);
+  }
+}
+
+.btn-group,
+.input-group {
+  .btn {
+    margin-right: 0;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+
+.button-group .btn {
+  margin-bottom: 5px;
+}
+
+.no-button-group .btn {
+  margin-bottom: 5px;
+  margin-right: 0px;
+}
+
+.btn .text-active {
+  display: none;
+}
+
+.btn.active .text-active {
+  display: inline-block;
+}
+
+.btn.active .text {
+  display: none;
+}
