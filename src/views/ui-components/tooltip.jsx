@@ -1,72 +1,77 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
     Card,
     CardBody,
     CardTitle,
     Tooltip,
-    UncontrolledTooltip 
+    Button
 } from 'reactstrap';
 
-class JumbotronComponent extends React.Component {
-    constructor(props) {
-      super(props);
+const TooltipItem = props => {
+    const { item, id } = props;
+    const [tooltipOpen, setTooltipOpen] = useState(false);
 
-      this.toggle = this.toggle.bind(this);
-      this.state = {
-        tooltipOpen: false
-      };
-    }
+    const toggle = () => setTooltipOpen(!tooltipOpen);
 
-    toggle() {
-      this.setState({
-        tooltipOpen: !this.state.tooltipOpen
-      });
-    }
-    render() {
-      return <div>
-              {/*--------------------------------------------------------------------------------*/}
-              {/*Start Inner Div*/}
-              {/*--------------------------------------------------------------------------------*/}
-                {/*--------------------------------------------------------------------------------*/}
-                {/*Row*/}
-                {/*--------------------------------------------------------------------------------*/}
-                <Card>
-                  <CardBody>
-                    <CardTitle className="mb-0"><i className = "mdi mdi-image-filter-vintage mr-2"> </i>Tooltip</CardTitle>
-                  </CardBody>
-                  <CardBody className="border-top">
-                    <div>
-                      <p>Somewhere in here is a <span style={{textDecoration: "underline", color:"blue"}} href="#" id="TooltipExample">tooltip</span>.</p>
-                      <Tooltip placement="right" isOpen={this.state.tooltipOpen} target="TooltipExample" toggle={this.toggle}>
-                        Hello world!
-                      </Tooltip>
-                    </div>
-                  </CardBody>
-                </Card>
-                <Card>
-                  <CardBody>
-                    <CardTitle className="mb-0"><i className = "mdi mdi-image-filter-vintage mr-2"> </i>Uncontrolled Tooltip</CardTitle>
-                  </CardBody>
-                  <CardBody className="border-top">
-                    <div>
-                      <p>Somewhere in here is a <span style={{textDecoration: "underline", color:"blue"}} href="#" id="UncontrolledTooltipExample">tooltip</span>.</p>
-                      <UncontrolledTooltip placement="right" target="UncontrolledTooltipExample">
-                        Hello world!
-                      </UncontrolledTooltip>
-                    </div>
-                  </CardBody>
-                </Card>
-                {/*--------------------------------------------------------------------------------*/}
-                {/*Row*/}
-                {/*--------------------------------------------------------------------------------*/}
-              
-              {/*--------------------------------------------------------------------------------*/}
-              {/*End Inner Div*/}
-              {/*--------------------------------------------------------------------------------*/}
-            </div>
-    }
+    return (
+        <span>
+            <Button className="mr-1" color="secondary" id={"Tooltip-" + id}>
+                {item.text}
+            </Button>
+            <Tooltip
+                placement={item.placement}
+                isOpen={tooltipOpen}
+                target={"Tooltip-" + id}
+                toggle={toggle}
+            >
+                Tooltip Content!
+      </Tooltip>
+        </span>
+    );
+};
+
+const TooltipComponent = () => {
+
+    return (
+        <div>
+            {/* --------------------------------------------------------------------------------*/}
+            {/* Row*/}
+            {/* --------------------------------------------------------------------------------*/}
+            <Card>
+                <CardTitle className="bg-light border-bottom p-3 mb-0">
+                    <i className="mdi mdi-image-filter-vintage mr-2"> </i>
+                    Tooltip
+                </CardTitle>
+                <CardBody className="">
+                    <>
+                        {[
+                            {
+                                placement: "top",
+                                text: "Top"
+                            },
+                            {
+                                placement: "bottom",
+                                text: "Bottom"
+                            },
+                            {
+                                placement: "left",
+                                text: "Left"
+                            },
+                            {
+                                placement: "right",
+                                text: "Right"
+                            }
+                        ].map((tooltip, i) => {
+                            return <TooltipItem key={i} item={tooltip} id={i} />;
+                        })}
+                    </>
+                </CardBody>
+            </Card>
+            {/* -------------------------------------------------------------------------------- */}
+            {/* Row */}
+            {/* -------------------------------------------------------------------------------- */}
+        </div>
+    );
 }
 
-export default JumbotronComponent;
-
-
+export default TooltipComponent;
