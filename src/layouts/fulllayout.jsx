@@ -39,11 +39,14 @@ const Fulllayout = (props) => {
                 element.classList.remove("mini-sidebar");
             }
         }
-        window.addEventListener("load", updateDimensions.bind(null));
-        window.addEventListener("resize", updateDimensions.bind(null));
+        if (document.readyState === "complete") {
+            updateDimensions();
+        }
+        window.addEventListener("resize", updateDimensions.bind(this));
+        window.addEventListener("load", updateDimensions.bind(this));
         return () => {
-            window.removeEventListener("load", updateDimensions.bind(null));
-            window.removeEventListener("resize", updateDimensions.bind(null));
+            window.removeEventListener("load", updateDimensions.bind(this));
+            window.removeEventListener("resize", updateDimensions.bind(this));
         };
     }, [width]);
 

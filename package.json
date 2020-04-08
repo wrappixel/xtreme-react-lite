@@ -2,7 +2,7 @@
     "name": "xtreme-react-admin",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://wrappixel.com/demos/free-admin-templates/xtreme-reactadmin-lite/",
+    "homepage": "https://wrappixel.com/demos/free-admin-templates/xtreme-reactadmin-lite/main",
     "dependencies": {
         "bootstrap": "4.1.3",
         "history": "4.7.2",
