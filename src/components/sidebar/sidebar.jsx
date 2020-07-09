@@ -36,7 +36,7 @@ const Sidebar = (props) => {
                                     /*--------------------------------------------------------------------------------*/
                                     /* Adding Sidebar Item                                                            */
                                     /*--------------------------------------------------------------------------------*/
-                                    <li className={activeRoute.bind(prop.path) + (prop.pro ? ' active active-pro' : '') + ' sidebar-item'} key={key}>
+                                    <li className={activeRoute(prop.path) + (prop.pro ? ' active active-pro' : '') + ' sidebar-item'} key={key}>
                                         <NavLink to={prop.path} className="sidebar-link" activeClassName="active">
                                             <i className={prop.icon} />
                                             <span className="hide-menu">{prop.name}</span>
