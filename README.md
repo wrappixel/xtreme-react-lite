@@ -110,7 +110,7 @@
 <!-- Upgrade to Premium version of Template -->
 <h2>Upgrade to Premium version</h2>
 <p>
-  Are you looking for more components? Please check our Premium Version of Material Dashboard<a href="https://www.wrappixel.com/templates/xtreme-react-redux-admin/">here</a>
+  Are you looking for more components? Please check our Premium Version of Material Dashboard <a href="https://www.wrappixel.com/templates/xtreme-react-redux-admin/">here</a>
 </p>
 
 <!-- Licensing of Template -->
