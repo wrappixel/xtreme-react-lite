@@ -135,6 +135,13 @@
 <li><a href="https://www.wrappixel.com/affiliate-area/" rel="nofollow">Affiliate Program</a> (earn money)</li>
 </ul>
 
+<!-- Social Media of Wrappixel -->
+<h5>Social Media</h5>
+<p>Twitter: <a href="https://twitter.com/wrappixel">https://twitter.com/wrappixel</a></p>
+<p>Facebook: <a href="https://www.facebook.com/wrappixel">https://www.facebook.com/wrappixel</a></p>
+<p>Dribbble: <a href="https://dribbble.com/wrappixel">https://dribbble.com/wrappixel</a></p>
+<p>Instagram: <a href="https://www.instagram.com/wrappixel/">https://www.instagram.com/wrappixel/</a></p>
+
 
 <!-- Older Content -->
 <!-- <h3>React Version of Xtreme admin, you can use it for your personal project, Footer backlink required, it must be redirect to our wrappixel.com</h3> -->
