@@ -61,7 +61,8 @@
   Live Demo: <a href="https://wrappixel.com/demos/free-admin-templates/xtreme-reactadmin-lite/main" rel="nofollow">https://wrappixel.com/demos/free-admin-templates/xtreme-reactadmin-lite/main</a>
 </li>
 <li>
-    Download Page: <a href="https://www.wrappixel.com/templates/xtreme-react-admin-lite" rel="nofollow">https://www.wrappixel.com/templates/xtreme-react-admin-             lite</a>
+    Download Page: <a href="https://www.wrappixel.com/templates/xtreme-react-admin-lite" rel="nofollow">
+  https://www.wrappixel.com/templates/xtreme-react-admin-lite</a>
 </li>
 <li>
     <a href="https://www.wrappixel.com/templates/wrapkit/#demos" rel="nofollow">WrapKit </a>Complete UI Kit - For Website Projects
@@ -92,10 +93,10 @@
 <!-- Useful Links of Template -->
 <h2>Useful Links</h2>
 <ul>
-<li><a href="https://www.wrappixel.com" rel="nofollow">Bootstrap Template</a> from Wrappixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/react-templates/" rel="nofollow">React Template</a> from Wrappixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/vuejs-templates/" rel="nofollow">Vue Template</a> from Wrappixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/angular-templates/" rel="nofollow">Angular Template</a> from Wrappixel</li>
+<li><a href="https://www.wrappixel.com" rel="nofollow">Bootstrap Templates</a> from Wrappixel</li>
+<li><a href="https://www.wrappixel.com/templates/category/react-templates/" rel="nofollow">React Templates</a> from Wrappixel</li>
+<li><a href="https://www.wrappixel.com/templates/category/vuejs-templates/" rel="nofollow">Vue Templates</a> from Wrappixel</li>
+<li><a href="https://www.wrappixel.com/templates/category/angular-templates/" rel="nofollow">Angular Templates</a> from Wrappixel</li>
 <li><a href="https://www.wrappixel.com/templates/category/free-templates/" rel="nofollow">Freebies</a> from Wrappixel</li>
 <li><a href="https://www.wrappixel.com/affiliate-area/" rel="nofollow">Affiliate Program</a></li>
 </ul>
