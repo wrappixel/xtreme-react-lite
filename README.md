@@ -37,17 +37,17 @@
 </td>
 <td>
   <a href="https://www.wrappixel.com/templates/xtreme-react-redux-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-react-admin-template-y.jpg" alt="Xtreme Template  HTML" style="max-width:150px;">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-react-admin-template-y.jpg" alt="Xtreme Template  React" style="max-width:150px;">
   </a>
 </td>
 <td>
   <a href="https://www.wrappixel.com/templates/xtreme-vuesax-admin-pro/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-vuesax-admin-y.jpg" alt="Xtreme Template  HTML" style="max-width:150px;">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-vuesax-admin-y.jpg" alt="Xtreme Template  Vue" style="max-width:150px;">
   </a>
 </td>
   <td>
   <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-angular-admin-y.jpg" alt="Xtreme Template  HTML" style="max-width:150px;">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-angular-admin-y.jpg" alt="Xtreme Template  Angular" style="max-width:150px;">
   </a>
 </td>
 </tr>
