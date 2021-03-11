@@ -1,37 +1,37 @@
 {
-    "name": "xtreme-react-admin",
-    "version": "0.1.0",
-    "private": true,
-    "homepage": "https://wrappixel.com/demos/free-admin-templates/xtreme-reactadmin-lite/main",
-    "dependencies": {
-        "bootstrap": "4.1.3",
-        "history": "4.7.2",
-        "node-sass": "^4.12.0",
-        "react": "^16.8.3",
-        "react-dom": "^16.8.3",
-        "react-chartjs-2": "^2.7.4",
-        "react-perfect-scrollbar": "1.2.0",
-        "react-router-dom": "4.2.2",
-        "react-scripts": "^3.4.1",
-        "chart.js": "2.7.2",
-        "reactstrap": "6.4.0"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    }
+  "name": "xtreme-react-admin",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/",
+  "dependencies": {
+    "bootstrap": "4.1.3",
+    "history": "5.0.0",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-chartjs-2": "^2.11.1",
+    "react-perfect-scrollbar": "1.5.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.2",
+    "chart.js": "2.9.4",
+    "reactstrap": "^8.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
