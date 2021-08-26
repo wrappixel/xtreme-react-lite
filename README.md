@@ -58,7 +58,7 @@
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="https://wrappixel.com/demos/free-admin-templates/xtreme-reactadmin-lite/main" rel="nofollow">https://wrappixel.com/demos/free-admin-templates/xtreme-reactadmin-lite/main</a>
+  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/react/xtreme-react-free/main/#/dashboard" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/react/xtreme-react-free/main/#/dashboard</a>
 </li>
 <li>
     Download Page: <a href="https://www.wrappixel.com/templates/xtreme-react-admin-lite" rel="nofollow">
@@ -87,7 +87,7 @@
 </a>
 <p>
    Checkout our premium version of Xtreme React Admin Lite for lots more features and ready to use page templates.<br>
-   <a href="https://www.wrappixel.com/demos/react-admin-templates/xtreme-react-admin/landingpage/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/xtreme-react-redux-admin/">Download</a>
+   <a href="https://demos.wrappixel.com/premium-admin-templates/react/xtreme-react/main/authentication/login">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/xtreme-react-redux-admin/">Download</a>
 </p>
 
 <!-- Useful Links of Template -->
