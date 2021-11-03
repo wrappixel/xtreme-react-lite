@@ -1,6 +1,6 @@
 <!-- Heading of Template -->
 <h1>
-  <a href="https://wrappixel.com/demos/free-admin-templates/xtreme-reactadmin-lite/main">Xtreme React Admin Lite</a>
+  <a href="https://demos.wrappixel.com/free-admin-templates/react/xtreme-react-free/main/#/dashboard">Xtreme React Admin Lite</a>
 </h1>
 
 <!-- Main image of Template -->
