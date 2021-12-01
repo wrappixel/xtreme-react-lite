@@ -1,0 +1,35 @@
+/*
+Template Name: Admin Template
+Author: Niravjoshi / Wrappixel
+File: scss
+*/
+
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+@import 'all/custom/variables.scss';
+
+// Import Bootstrap source files (Required file)
+@import 'all/bootstrap/bootstrap.scss';
+@import 'all/custom/custom.scss';
+
+//This is for the icons (Required file)
+@import 'all/icons/font-awesome/css/fontawesome-all.css';
+@import 'all/icons/simple-line-icons/css/simple-line-icons.css';
+@import 'all/icons/weather-icons/css/weather-icons.min.css';
+@import 'all/icons/themify-icons/themify-icons.css';
+@import 'all/icons/material-design-iconic-font/css/materialdesignicons.min.css';

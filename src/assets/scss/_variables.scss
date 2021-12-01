@@ -1,0 +1,78 @@
+/*******************/
+// Theme Fonts
+/********************/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+$font-family-sans-serif: "Nunito", sans-serif;
+/*******************/
+// Theme Colors
+/********************/
+$primary: #2962ff;
+$info: #3699ff;
+$danger: #f64e60;
+$success: #0bb7af;
+$warning: #ee9d01;
+$dark: #343a40;
+$light: #eaf2fb;
+$secondary: #35363b;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "light-primary": #d6e4f3,
+  "light-success": #d5f3f2,
+  "light-info": #d3edfa,
+  "light-warning": #f8ecdc,
+  "light-danger": #f8dddd,
+);
+// scss-docs-start gray-color-variables
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #eef5f9 !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #757e85 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #1e2a35 !default;
+$black: #000 !default;
+
+/*******************/
+// Theme Text Contrast
+/********************/
+$min-contrast-ratio: 2;
+
+/*******************/
+// Theme body bg & text color
+/********************/
+$body-bg: $gray-200 !default;
+$body-color: $gray-900 !default;
+
+/*******************/
+// Theme common variable
+/********************/
+$border-radius: 0.3rem !default;
+$box-shadow: 0 0.5rem 1rem rgba($black, 0.05);
+$headings-font-weight: 600 !default;
+
+$card-border-width: 0 !default;
+$card-box-shadow: $box-shadow !default;
+$grid-gutter-width: 1.85rem !default;
+
+$input-bg: $white !default;
+/*******************/
+// Theme btn
+/********************/
+$btn-focus-width: 0px;
+
+/*******************/
+// Theme sidebar width
+/********************/
+$sidebarWidth: 260px;
+$sidebarColor: $white;
