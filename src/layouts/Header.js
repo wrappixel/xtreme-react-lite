@@ -30,12 +30,12 @@ const Header = () => {
   return (
     <Navbar color="primary" dark expand="md">
       <div className="d-flex align-items-center">
-        <NavbarBrand href="/" className="d-sm-block d-md-none">
+        <NavbarBrand href="/" className="d-lg-none">
           <LogoWhite />
         </NavbarBrand>
         <Button
           color="primary"
-          className="d-sm-block d-md-none"
+          className="d-lg-none"
           onClick={() => showMobilemenu()}
         >
           <i className="bi bi-list"></i>

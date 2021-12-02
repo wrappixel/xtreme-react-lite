@@ -4,6 +4,10 @@
 .contentArea {
   flex-grow: 1;
 }
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
 .card {
   box-shadow: $card-box-shadow;
   margin-bottom: 30px;
