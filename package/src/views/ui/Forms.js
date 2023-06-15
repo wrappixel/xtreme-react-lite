@@ -85,14 +85,14 @@ const Forms = () => {
                 <legend>Radio Buttons</legend>
                 <FormGroup check>
                   <Input name="radio1" type="radio" />{" "}
-                  <Label check>
+                  <Label check className="form-label">
                     Option one is this and that—be sure to include why it's
                     great
                   </Label>
                 </FormGroup>
                 <FormGroup check>
                   <Input name="radio1" type="radio" />{" "}
-                  <Label check>
+                  <Label check className="form-label">
                     Option two can be something else and selecting it will
                     deselect option one
                   </Label>
@@ -102,10 +102,10 @@ const Forms = () => {
                   <Label check>Option three is disabled</Label>
                 </FormGroup>
               </FormGroup>
-              <FormGroup check>
+              <FormGroup check className="form-label">
                 <Input type="checkbox" /> <Label check>Check me out</Label>
               </FormGroup>
-              <Button>Submit</Button>
+              <Button className="mt-2">Submit</Button>
             </Form>
           </CardBody>
         </Card>

@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 const ComponentCard = ({ children, title, subtitle }) => {
   return (
-    <Card>
-      <CardTitle tag="h4" className="border-bottom px-4 py-3 mb-0">
+    <Card className='shadow-none'>
+      <CardTitle tag="h2" className="px-4 mb-1">
         {title}
       </CardTitle>
-      <CardBody className="p-4">
-        <CardSubtitle className="text-muted mb-3">{subtitle || ''}</CardSubtitle>
+      <CardBody className="p-4 pt-2">
+        <CardSubtitle className="mb-3">{subtitle || ''}</CardSubtitle>
         <div>{children}</div>
       </CardBody>
     </Card>

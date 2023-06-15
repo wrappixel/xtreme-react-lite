@@ -29,3 +29,10 @@
 .button-group .btn {
   margin: 3px;
 }
+
+.table>:not(:first-child) {
+  border-top: 2px solid;
+}
+.table-borderless>:not(:first-child) {
+  border-top-width: 0;
+}
