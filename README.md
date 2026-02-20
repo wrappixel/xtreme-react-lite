@@ -139,3 +139,7 @@ Xtreme React Admin Dashboard
 - [Download Free Bootstrap Templates](https://www.wrappixel.com/templates/category/free-bootstrap-templates/?utm_source=github)
 - [Download Free Admin Templates](https://www.wrappixel.com/templates/category/free-admin-panel-templates/)
 - [Download Free MUI Templates](https://www.wrappixel.com/templates/category/mui-templates/?utm_source=github)
+
+## Deployment
+
+[![Deploy on Hostinger](https://assets.hostinger.com/vps/deploy.svg)](https://www.hostinger.com/web-apps-hosting)
