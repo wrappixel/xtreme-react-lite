@@ -1,4 +1,6 @@
 # <a href="https://demos.wrappixel.com/free-admin-templates/react/xtreme-react-free/main/#/starter">Xtreme React Free</a>
+
+[![Deploy on Hostinger](https://assets.hostinger.com/vps/deploy.svg)](https://www.hostinger.com/web-apps-hosting)
 Xtreme React Admin Dashboard
 
 <!-- Main image of Template -->
